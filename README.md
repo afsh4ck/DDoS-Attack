@@ -1,4 +1,7 @@
 # Distributed DDoS Attack
+
+![DDos Attack](https://github.com/afsh4ck/DDos-Attack/assets/132138425/f2359b88-5752-449d-98a9-21868162abad)
+
 A really simple and powerful DDOS Attack on python 🚀
 
 Dont use this program against online websites without the consent of the admin.
