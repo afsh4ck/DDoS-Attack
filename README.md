@@ -25,7 +25,7 @@ python ddos.py
 1. Clone this repository to your local machine.
 2. Run the `ddos.py` script.
 3. Follow the on-screen prompts to input the target IP/Domain and port.
-4. Observe the simulated DDoS attack and its effects on the target.
+4. Observe the DDoS attack and its effects on the target.
 
 ## Disclaimer
 
