@@ -27,6 +27,13 @@ python ddos.py
 3. Follow the on-screen prompts to input the target IP/Domain and port.
 4. Observe the DDoS attack and its effects on the target.
 
+## Proxy
+
+You can use proxychains with DDos Attack
+```
+proxychains4 python ddos.py
+```
+
 ## Disclaimer
 
 This project is meant solely for educational purposes and ethical exploration. Any use of this code for malicious or unauthorized activities is strictly prohibited. The author and contributors are not responsible for any misuse of the code.
