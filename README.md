@@ -15,7 +15,7 @@ This repository contains a Python-based educational project that simulates a dis
 - Controlled DDoS attack using Python
 - Utilize standard networking libraries for packet generation
 - Display a progress bar with percentage during the attack
-- Learn about network protocols, sockets, and programming techniques
+- The program exponentially increases the number of requests, increasing the effectiveness of the attack
 
 ## Usage
 
