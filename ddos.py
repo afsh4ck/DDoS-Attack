@@ -43,6 +43,7 @@ banner = """
 /_____/ \__,_/ \____//____/  /_/  |_|\__/ \__/ \__,_/ \___//_/|_|  
 """
 
+os.system("clear")
 title()
 
 # Pedir la dirección IP y el puerto
