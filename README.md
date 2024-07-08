@@ -47,8 +47,8 @@ Contributions to enhance the educational value, code quality, or security aspect
 
 ## Créditos
 - Autor:       afsh4ck
-- Instagram:   <a href="https://www.instagram.com/afsh4ck/">afsh4ck</a>
-- Youtube:     <a href="https://youtube.com/@afsh4ck)">afsh4ck</a>
+- Instagram:   <a href="https://www.instagram.com/afsh4ck">afsh4ck</a>
+- Youtube:     <a href="https://youtube.com/@afsh4ck">afsh4ck</a>
 
 ## Soporte
 
