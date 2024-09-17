@@ -33,6 +33,7 @@ def title():
     print(VERDE + "-" * 67 + RESET)
     print("Author : afsh4ck")
     print("Github : https://github.com/afsh4ck")
+    print("Follow me on Instagram & YouTube - @afsh4ck")
     print(VERDE + "-" * 67 + RESET)
 
 banner = """
