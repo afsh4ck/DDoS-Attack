@@ -21,7 +21,7 @@ This repository contains a Python-based educational project that simulates a dis
 ## Usage
 
 ```
-git clone https://github.com/afsh4ck/DDos-Attack
+git clone https://github.com/afsh4ck/DDoS-Attack
 cd Ddos-Attack
 sudo chmod 777 ddos.py
 python ddos.py
