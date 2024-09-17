@@ -1,6 +1,7 @@
 # Distributed DDoS Attack
 
-![DDos Attack](https://github.com/afsh4ck/DDos-Attack/assets/132138425/f2359b88-5752-449d-98a9-21868162abad)
+![ddos-1](https://github.com/user-attachments/assets/90e32250-b807-41d0-bf45-ae502fa78898)
+![ddos-2](https://github.com/user-attachments/assets/2ffde4d5-3202-4bbf-89cb-0c48d7b250c6)
 
 A really simple and powerful DDOS Attack on python 🚀
 
